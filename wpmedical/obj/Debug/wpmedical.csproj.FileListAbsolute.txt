@@ -1,0 +1,105 @@
+C:\Temp\wpmedical\wpmedical\Bin\Debug\ApplicationIcon.png
+C:\Temp\wpmedical\wpmedical\Bin\Debug\Background.png
+C:\Temp\wpmedical\wpmedical\Bin\Debug\wpmedical.dll
+C:\Temp\wpmedical\wpmedical\Bin\Debug\wpmedical.pdb
+C:\Temp\wpmedical\wpmedical\Bin\Debug\AppManifest.xaml
+C:\Temp\wpmedical\wpmedical\Bin\Debug\wpmedical.xap
+C:\Temp\wpmedical\wpmedical\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Temp\wpmedical\wpmedical\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Temp\wpmedical\wpmedical\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\wpmedical\wpmedical\obj\Debug\App.g.i.cs
+C:\Temp\wpmedical\wpmedical\obj\Debug\MainPage.g.i.cs
+C:\Temp\wpmedical\wpmedical\obj\Debug\wpmedical.g.resources
+C:\Temp\wpmedical\wpmedical\obj\Debug\wpmedical.dll
+C:\Temp\wpmedical\wpmedical\obj\Debug\wpmedical.pdb
+C:\Temp\wpmedical\wpmedical\obj\Debug\XapCacheFile.xml
+C:\Temp\wpmedical\wpmedical\obj\Debug\accueil.g.i.cs
+C:\Temp\wpmedical\wpmedical\obj\Debug\agenda.g.i.cs
+C:\Temp\wpmedical\wpmedical\obj\Debug\calculs.g.i.cs
+C:\Temp\wpmedical\wpmedical\obj\Debug\detailAgenda.g.i.cs
+C:\Temp\wpmedical\wpmedical\obj\Debug\gestionPatients.g.i.cs
+C:\Temp\wpmedical\wpmedical\obj\Debug\patient.g.i.cs
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\App.g.i.cs
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\accueil.g.i.cs
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\agenda.g.i.cs
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\calculs.g.i.cs
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\gestionPatients.g.i.cs
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\MainPage.g.i.cs
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\patient.g.i.cs
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\wpmedical.g.resources
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\wpmedical.dll
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\wpmedical.pdb
+C:\Temp\TP visual studio\wpmedical\wpmedical\Bin\Debug\ApplicationIcon.png
+C:\Temp\TP visual studio\wpmedical\wpmedical\Bin\Debug\Background.png
+C:\Temp\TP visual studio\wpmedical\wpmedical\Bin\Debug\wpmedical.dll
+C:\Temp\TP visual studio\wpmedical\wpmedical\Bin\Debug\wpmedical.pdb
+C:\Temp\TP visual studio\wpmedical\wpmedical\Bin\Debug\AppManifest.xaml
+C:\Temp\TP visual studio\wpmedical\wpmedical\Bin\Debug\wpmedical.xap
+C:\Temp\TP visual studio\wpmedical\wpmedical\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Temp\TP visual studio\wpmedical\wpmedical\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\XapCacheFile.xml
+C:\Temp\TP visual studio\wpmedical\wpmedical\obj\Debug\antecedents.g.i.cs
+F:\windowsPhone\Projet_medical\wpmedical\Bin\Debug\ApplicationIcon.png
+F:\windowsPhone\Projet_medical\wpmedical\Bin\Debug\Background.png
+F:\windowsPhone\Projet_medical\wpmedical\Bin\Debug\wpmedical.dll
+F:\windowsPhone\Projet_medical\wpmedical\Bin\Debug\wpmedical.pdb
+F:\windowsPhone\Projet_medical\wpmedical\Bin\Debug\AppManifest.xaml
+F:\windowsPhone\Projet_medical\wpmedical\Bin\Debug\wpmedical.xap
+F:\windowsPhone\Projet_medical\wpmedical\Bin\Debug\Microsoft.Phone.Controls.dll
+F:\windowsPhone\Projet_medical\wpmedical\Bin\Debug\Microsoft.Phone.Controls.xml
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\wpmedical.csprojResolveAssemblyReference.cache
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\App.g.cs
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\accueil.g.cs
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\agenda.g.cs
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\antecedents.g.cs
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\calculs.g.cs
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\gestionPatients.g.cs
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\MainPage.g.cs
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\patient.g.cs
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\wpmedical.g.resources
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\wpmedical.dll
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\wpmedical.pdb
+F:\windowsPhone\Projet_medical\wpmedical\obj\Debug\XapCacheFile.xml
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\Bin\Debug\ApplicationIcon.png
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\Bin\Debug\Background.png
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\Bin\Debug\wpmedical.dll
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\Bin\Debug\wpmedical.pdb
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\Bin\Debug\AppManifest.xaml
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\wpmedical.csprojResolveAssemblyReference.cache
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\App.g.cs
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\accueil.g.cs
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\agenda.g.cs
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\antecedents.g.cs
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\calculs.g.cs
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\gestionPatients.g.cs
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\MainPage.g.cs
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\patient.g.cs
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\wpmedical.g.resources
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\wpmedical.dll
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\wpmedical.pdb
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\obj\Debug\XapCacheFile.xml
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\boubacar\Documents\cours\TLWTM\Widowsphone\windowsPhone\Projet_medical\wpmedical\Bin\Debug\wpmedical_Debug_AnyCPU.xap
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\Bin\Debug\ApplicationIcon.png
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\Bin\Debug\Background.png
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\Bin\Debug\wpmedical.dll
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\Bin\Debug\wpmedical.pdb
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\Bin\Debug\AppManifest.xaml
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\Bin\Debug\wpmedical_Debug_AnyCPU.xap
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\wpmedical.csprojResolveAssemblyReference.cache
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\App.g.cs
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\accueil.g.cs
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\agenda.g.cs
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\antecedents.g.cs
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\calculs.g.cs
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\gestionPatients.g.cs
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\MainPage.g.cs
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\patient.g.cs
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\wpmedical.g.resources
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\wpmedical.dll
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\wpmedical.pdb
+C:\Users\boubacar\Desktop\Projet_medical\wpmedical\obj\Debug\XapCacheFile.xml

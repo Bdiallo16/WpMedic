@@ -1,0 +1,56 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="wpmedical.antecedents"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contient le nom de l'application et le titre de la page-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Wp Médical" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Antécédents" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - placez tout contenu supplémentaire ici-->
+        <Grid x:Name="ContentPanel" Margin="0,10,24,151" Grid.RowSpan="2">
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="12,20,0,0" Name="textBlock1" Text="Libellé" VerticalAlignment="Top" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="12,146,0,0" Name="textBlock2" Text="Année d'apparition" VerticalAlignment="Top" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="12,259,0,0" Name="textBlock3" Text="Commentaire" VerticalAlignment="Top" />
+            <TextBox Height="72" HorizontalAlignment="Left" Margin="12,56,0,0" Name="txtLibelle" Text="" VerticalAlignment="Top" Width="421"  />
+            <TextBox InputScope="Number" Height="72" HorizontalAlignment="Left" Margin="12,181,0,0" Name="txtAnnee" Text="" VerticalAlignment="Top" Width="421" />
+            <TextBox Height="72" HorizontalAlignment="Left" Margin="12,295,0,0" Name="txtCommentaire" Text="" VerticalAlignment="Top" Width="421" />
+            <Button Content="Ajouter" Height="72" HorizontalAlignment="Left" Margin="21,429,0,0" Name="btnAjouter" VerticalAlignment="Top" Width="160" Click="btnAjouter_Click" />
+            <Button Content="Enregistrer" Height="72" HorizontalAlignment="Left" Margin="21,429,0,0" Name="btnEnregistrer" VerticalAlignment="Top" Width="174" Click="btnEnregistrer_Click" />
+            <Button Content="Annuler" Height="72" HorizontalAlignment="Left" Margin="259,429,0,0" Name="btnAnnuler" VerticalAlignment="Top" Width="160" Click="btnAnnuler_Click" />
+            <Button Content="Supprimer" Height="72" HorizontalAlignment="Left" Margin="14,507,0,0" Name="btnSupprimer" VerticalAlignment="Top" Width="181" Click="btnSupprimer_Click" />
+        </Grid>
+    </Grid>
+
+    <!--Exemple de code illustrant l'utilisation de l'ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Bouton 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Bouton 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="ÉlémentMenu 1"/>
+                <shell:ApplicationBarMenuItem Text="ÉlémentMenu 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

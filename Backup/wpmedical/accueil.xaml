@@ -1,0 +1,76 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="wpmedical.accueil"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contient le nom de l'application et le titre de la page-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Wp Médical" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Accueil" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - placez tout contenu supplémentaire ici-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" >
+            <Ellipse Height="190" HorizontalAlignment="Left" Margin="6,83,0,0" Name="btnConsultation" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="209" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment" Tap="btnConsultation_click">
+                <Ellipse.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="consultations-medicales-sur-internet_29.jpg"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="190" HorizontalAlignment="Left" Margin="241,83,0,0" x:Name="btnAgenda" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="209" d:LayoutOverrides="VerticalAlignment" RenderTransformOrigin="1.371,0.601" Tap="btnAgenda_click">
+                <Ellipse.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="calendrier-2013-par-semestre-thumb.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="190" HorizontalAlignment="Left" Margin="122,279,0,0" Name="btnCalcul" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="209" Tap="btnCalcul_click">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="courbe-poids.jpg" Stretch="Fill" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <TextBlock HorizontalAlignment="Left" Margin="36,160,0,0" TextWrapping="Wrap" Text="Consultations" VerticalAlignment="Top" FontWeight="Bold" FontSize="24" Tap="btnConsultation_click">
+            	<TextBlock.Foreground>
+            		<SolidColorBrush Color="{StaticResource PhoneBackgroundColor}"/>
+            	</TextBlock.Foreground>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Right" Margin="0,160,66,0" TextWrapping="Wrap" Text="Agenda" VerticalAlignment="Top" FontWeight="Bold" FontSize="24" RenderTransformOrigin="0.379,0.531" Tap="btnAgenda_click">
+            	<TextBlock.Foreground>
+            		<SolidColorBrush Color="{StaticResource PhoneBackgroundColor}"/>
+            	</TextBlock.Foreground>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="187,0,0,217" TextWrapping="Wrap" Text="Calculs" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="24" RenderTransformOrigin="0.513,3.375" Tap="btnCalcul_click">
+            	<TextBlock.Foreground>
+            		<SolidColorBrush Color="{StaticResource PhoneBackgroundColor}"/>
+            	</TextBlock.Foreground>
+            </TextBlock>
+        </Grid>
+    </Grid>
+
+    <!--Exemple de code illustrant l'utilisation de l'ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Bouton 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Bouton 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="ÉlémentMenu 1"/>
+                <shell:ApplicationBarMenuItem Text="ÉlémentMenu 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

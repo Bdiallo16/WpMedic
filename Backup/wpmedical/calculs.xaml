@@ -1,0 +1,72 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="wpmedical.calculs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contient la grille racine où tout le contenu des autres pages est placé-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Calculs">
+
+            <!--Élément un de panorama-->
+            <controls:PanoramaItem Header="IMC">
+                <Grid>
+                    <TextBox Height="77" HorizontalAlignment="Left" Margin="143,72,0,0" Name="txtPoids" Text="" VerticalAlignment="Top" Width="229" />
+                    <TextBox Height="76" HorizontalAlignment="Left" Margin="144,141,0,0" Name="txtTaille" Text="" VerticalAlignment="Top" Width="229" />
+                    <TextBlock Height="59" HorizontalAlignment="Left" Margin="87,86,0,0" Name="txtpoids" Text="Poids" VerticalAlignment="Top" Width="119" />
+                    <TextBlock Height="42" HorizontalAlignment="Left" Margin="87,155,0,0" Name="textBlock5" Text="Taille" VerticalAlignment="Top" Width="64" />
+                    <Button Content="Calculer" Height="72" HorizontalAlignment="Left" Margin="167,335,0,0" Name="btnImc" VerticalAlignment="Top" Width="160" Click="btnImc_Click" />
+                    <TextBlock Height="30" HorizontalAlignment="Left" Margin="58,238,0,0" Name="textBlock3" Text="Votre IMC est:" VerticalAlignment="Top" />
+                    <TextBlock Height="46" HorizontalAlignment="Left" Margin="190,237,0,0" Name="txtBlockImc" Text="" VerticalAlignment="Top" Width="112" />
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Élément deux de panorama-->
+            <controls:PanoramaItem Header="GROSSESSE">
+                <Grid>
+                    <TextBox Height="72" HorizontalAlignment="Left" Margin="9,57,0,0" Name="txtDateRegles" Text="01/01/2013" VerticalAlignment="Top" Width="397" />
+                    <TextBlock Height="30" HorizontalAlignment="Left" Margin="23,21,0,0" Name="lblRegles" Text="Date du 1er jour des dernières règles" VerticalAlignment="Top" FontWeight="Bold" />
+                    <Button Content="Calculer" Height="72" HorizontalAlignment="Left" Margin="125,161,0,0" Name="btnCalculerGrossesse" VerticalAlignment="Top" Width="160" Click="btnCalculerGrossesse_Click" />
+                    <TextBlock Height="30" HorizontalAlignment="Left" Margin="33,326,0,0" Name="txtConception" Text="" VerticalAlignment="Top" Width="342" FontWeight="Bold" FontSize="22" FontFamily="Segoe WP" />
+                    <TextBlock Height="30" HorizontalAlignment="Left" Margin="33,433,0,0" Name="txtAccouchement" Text="" VerticalAlignment="Top" Width="342" FontWeight="Bold" FontSize="22" />
+                    <TextBlock FontFamily="Segoe WP" FontSize="22" FontWeight="Normal" Height="30" HorizontalAlignment="Left" Margin="32,287,0,0" Name="textBlock1" Text="Date de conception" VerticalAlignment="Top" Width="342" FontStyle="Italic" />
+                    <TextBlock FontFamily="Segoe WP" FontSize="22" FontWeight="Normal" Height="30" HorizontalAlignment="Left" Margin="33,393,0,0" Name="textBlock2" Text="Date prévue d'accouchement" VerticalAlignment="Top" Width="342" FontStyle="Italic" />
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Élément trois de panorama-->
+            <controls:PanoramaItem Header="CARDIO VAS.">
+                <Grid>
+                    <RadioButton GroupName="sexe" Content="M" Height="72" HorizontalAlignment="Left" Margin="141,-5,0,0" Name="rbM" VerticalAlignment="Top" />
+                    <RadioButton GroupName="sexe" Content="F" Height="72" HorizontalAlignment="Right" Margin="0,-4,96,0" Name="rbF" VerticalAlignment="Top" />
+                    <TextBlock Height="43" HorizontalAlignment="Left" Margin="7,10,0,0" Name="tblSexe" Text="Sexe" VerticalAlignment="Top" Width="90" FontSize="30" />
+                    <TextBlock Height="60" HorizontalAlignment="Left" Margin="3,77,0,0" Name="tblTabac" Text="Tabac" VerticalAlignment="Top" Width="149" FontSize="30" />
+                    <RadioButton GroupName="fumeur" Content="Oui" Height="72" HorizontalAlignment="Left" Margin="140,57,0,0" Name="rbTabacOui" VerticalAlignment="Top" Width="130" />
+                    <RadioButton GroupName="fumeur" Content="Non" Height="72" HorizontalAlignment="Left" Margin="245,58,0,0" Name="rbTabacNon" VerticalAlignment="Top" Width="115" />
+                    <TextBlock Height="43" HorizontalAlignment="Left" Margin="10,153,0,0" Name="tblAge" Text="Age" VerticalAlignment="Top" FontSize="30" />
+                    <TextBox Height="72" HorizontalAlignment="Left" Margin="161,136,0,0" Name="txtAge" Text="" VerticalAlignment="Top" Width="409" InputScope="Number"/>
+                    <TextBlock Height="47" HorizontalAlignment="Left" Margin="8,228,0,0" Name="tblTension" Text="Tension" VerticalAlignment="Top" Width="103" FontSize="30" />
+                    <TextBox Height="72" HorizontalAlignment="Left" Margin="160,216,0,0" Name="txtTension" Text="" VerticalAlignment="Top" Width="407" InputScope="Number" />
+                    <TextBlock Height="50" HorizontalAlignment="Left" Margin="0,316,0,0" Name="tblChol" Text="Cholestérol" VerticalAlignment="Top" FontSize="30" />
+                    <TextBox Height="72" HorizontalAlignment="Left" Margin="160,304,0,0" Name="txtChol" Text="" VerticalAlignment="Top" Width="460" InputScope="Number"/>
+                    <Button Content="Valider" Height="72" HorizontalAlignment="Left" Margin="8,410,0,0" Name="btnValider" VerticalAlignment="Top" Width="160" Click="btnValider_Click" />
+                    <TextBox Height="72" HorizontalAlignment="Left" Margin="210,423,0,0" Name="txtResCardio" Text="" VerticalAlignment="Top" Width="460" InputScope="Number" />
+                    <TextBlock Height="41" HorizontalAlignment="Left" Margin="289,390,0,0" Name="tblResCardio" Text="Résultat" VerticalAlignment="Top" FontSize="25" />
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Les applications basées sur des panoramas ne devraient pas afficher d'ApplicationBar-->
+
+</phone:PhoneApplicationPage>
